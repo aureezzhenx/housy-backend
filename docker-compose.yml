@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+ housy-backend:
+  container_name: housy-backend
+  image: aureezzhenx/housy-backend:v1.0.0
+  ports:
+   - "5000:5000"

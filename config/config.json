@@ -14,7 +14,7 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "DATABASE_URL",
+    "use_env_variable": "postgres://postgres:postgres@172.31.75.134:5432/dumbflix",
     "dialect": "postgres",
     "protocol": "postgres"
   }

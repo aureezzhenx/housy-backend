@@ -10,4 +10,4 @@ RUN npm install -g sequelize-cli
 RUN sequelize db:migrate
 
 EXPOSE 5000
-CMD ["npm","start"]
+CMD ["node", "index.js"]
