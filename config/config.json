@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "postgres",
-    "password": "postgres",
+    "password": null,
     "database": "dumbflix",
     "host": "172.31.75.134",
     "dialect": "postgres"
@@ -14,7 +14,7 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "postgres://postgres:postgres@172.31.75.134:5432/dumbflix",
+    "use_env_variable": "DATABASE_URL",
     "dialect": "postgres",
     "protocol": "postgres"
   }
