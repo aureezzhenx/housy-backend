@@ -2,5 +2,5 @@
 DumbWays.id - Bootcamp DevOps Batch 4
 
 
-test trigger dad
+test trigger dadfdsfds
 RUN PRODUCTION: serve -p 3000 build
